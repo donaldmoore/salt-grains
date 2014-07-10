@@ -1,4 +1,4 @@
-# @author donnie moore (donnie.m@gvocom.com)
+# @author Donald Ray Moore Jr (dmoore@suspectedterrorist.org)
 # @purpose salt grain to detect infected boxes
 
 import os
