@@ -4,7 +4,7 @@
 import os
 
 def package_update_count():
-  return {'package updates': os.popen("yum check-update | grep -v "^ * " | wc -l").readline().rstrip()}
+  return {'package_updates': os.popen("yum check-update | grep -v '^ * ' | wc -l").readline().rstrip()}
 
-if __name__ == '__main__':
-  package_update_count()
+  if __name__ == '__main__':
+    package_update_count()
