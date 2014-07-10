@@ -1,5 +1,5 @@
 # @author Donald Ray Moore Jr (dmoore@suspectedterrorist.org)
-# @purpose salt grain to count redhat packages
+# @purpose salt grain to count # of outstanding package updates
 
 import os
 
